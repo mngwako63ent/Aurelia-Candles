@@ -1,10 +1,10 @@
 import { Product } from '../types';
 
-export const HERO_IMAGE = '/images/hero_aurelia_candle_1791800315009.jpg';
-export const AMBER_CANDLE_IMAGE = '/images/product_amber_candle_1791800333941.jpg';
-export const CERAMIC_CANDLE_IMAGE = '/images/product_ceramic_candle_1791800350453.jpg';
-export const WAX_MELTS_IMAGE = '/images/product_wax_melts_1791800366332.jpg';
-export const GIFT_SET_IMAGE = '/images/product_gift_set_1791800383219.jpg';
+export const HERO_IMAGE = 'images/hero_aurelia_candle_1791800315009.jpg';
+export const AMBER_CANDLE_IMAGE = 'images/product_amber_candle_1791800333941.jpg';
+export const CERAMIC_CANDLE_IMAGE = 'images/product_ceramic_candle_1791800350453.jpg';
+export const WAX_MELTS_IMAGE = 'images/product_wax_melts_1791800366332.jpg';
+export const GIFT_SET_IMAGE = 'images/product_gift_set_1791800383219.jpg';
 
 export const formatZAR = (amount: number): string => {
   return `R ${amount.toLocaleString('en-ZA', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
